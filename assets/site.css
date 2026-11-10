@@ -110,7 +110,7 @@ img { display: block; max-width: 100%; }
 .glance strong { display: block; font-size: 15px; margin-bottom: 2px; }
 .glance span { font-size: 14px; color: var(--ink-2); line-height: 1.5; }
 
-.doc { display: grid; gap: 32px; padding: 40px 0 72px; }
+.doc { display: grid; gap: 32px; padding-top: 40px; padding-bottom: 72px; }
 @media (min-width: 960px) { .doc { grid-template-columns: 240px minmax(0, 1fr); gap: 56px; } }
 .toc { font-size: 14px; }
 @media (min-width: 960px) { .toc { position: sticky; top: 84px; align-self: start; } }
