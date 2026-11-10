@@ -4,79 +4,161 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>QuietSwitch Privacy Policy</title>
-<style>
-:root{--bg:#fbfaf7;--fg:#1b1d1f;--muted:#5b6066;--line:#e3e1dc;--link:#1f5fbf}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141516;--fg:#ecebe8;--muted:#a3a7ab;--line:#2c2e30;--link:#8ab4f8}}
-:root[data-theme="dark"]{--bg:#141516;--fg:#ecebe8;--muted:#a3a7ab;--line:#2c2e30;--link:#8ab4f8}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-main{max-width:720px;margin:0 auto;padding:32px 16px 64px}
-h1{font-size:1.75rem;line-height:1.25;margin:0 0 4px}
-h2{font-size:1.15rem;margin:32px 0 8px}
-p,li{color:var(--fg)}
-.meta{color:var(--muted);margin:0 0 24px}
-a{color:var(--link)}
-ul{padding-left:20px}
-footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
-.apps a{display:block;padding:12px 0;border-bottom:1px solid var(--line);text-decoration:none}
-@media print{body{background:#fff;color:#000}a{color:#000}}
-</style>
+<meta name="description" content="How QuietSwitch handles location, calendar and sound settings. Everything stays on your phone; no account, no ads, no tracking.">
+<link rel="stylesheet" href="/assets/site.css">
 </head>
-<body>
+<body class="app-quietswitch">
+<a class="skip" href="#policy">Skip to policy</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/"><span class="brand-mark" aria-hidden="true">a</span>amirhazro apps</a>
+    <nav class="nav" aria-label="Main">
+      <a href="/#apps">Apps</a>
+      <a href="/support/">Support</a>
+    </nav>
+  </div>
+</header>
+
 <main>
-<h1>QuietSwitch Privacy Policy</h1>
-<p class="meta">Effective [release date] · Publisher: amirhazro (individual developer)</p>
+  <section class="doc-hero">
+    <div class="wrap">
+      <div class="app-head">
+        <img class="app-icon" src="/assets/quietswitch.png" alt="" width="64" height="64">
+        <div><h2>QuietSwitch</h2><p>Quiet when you need it</p></div>
+      </div>
+      <h1>Privacy Policy</h1>
+      <ul class="meta">
+        <li><strong>Last updated:</strong> 10 November 2026</li>
+        <li><strong>Applies to:</strong> QuietSwitch for Android</li>
+        <li><strong>Publisher:</strong> amirhazro, independent developer</li>
+      </ul>
+      <ul class="glance" aria-label="Summary">
+        <li><div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></div><strong>Stays on your phone</strong><span>Routines, places, calendar data and history are never sent to us.</span></li>
+        <li><div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M5.6 5.6l12.8 12.8"/></svg></div><strong>No ads, no tracking</strong><span>No account, no advertising, no analytics and no crash-reporting service.</span></li>
+        <li><div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div><strong>Location only for places</strong><span>Used only for place routines you create. No continuous GPS trail.</span></li>
+        <li><div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3"/></svg></div><strong>Delete in one tap</strong><span>Delete all local data from Settings, or uninstall to remove everything.</span></li>
+      </ul>
+    </div>
+  </section>
 
-<p>QuietSwitch changes your Android phone’s sound and Do Not Disturb settings by schedule, place, calendar or prayer times, and switches them back. Everything it knows about you stays on your phone.</p>
+  <div class="wrap doc">
+    <nav class="toc" aria-label="On this page">
+      <p>On this page</p>
+      <ol>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#data">Data at a glance</a></li>
+        <li><a href="#location">Location</a></li>
+        <li><a href="#calendar">Calendar</a></li>
+        <li><a href="#bluetooth">Bluetooth and charging</a></li>
+        <li><a href="#storage">Storage and deletion</a></li>
+        <li><a href="#sharing">Sharing you choose</a></li>
+        <li><a href="#permissions">Permissions</a></li>
+        <li><a href="#children">Children</a></li>
+        <li><a href="#changes">Changes</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ol>
+    </nav>
 
-<h2>No accounts, no ads, no tracking</h2>
-<p>QuietSwitch has no account, no advertising, no analytics and no crash-reporting service, and we run no server. Your routines, places, calendar information and activity history are never sent to us.</p>
+    <article class="prose" id="policy">
+      <p>QuietSwitch changes your Android phone’s sound and Do Not Disturb settings by schedule, place, calendar or prayer times, and switches them back afterwards. This policy explains what it uses to do that and what stays under your control.</p>
 
-<h2>Location</h2>
-<p>If you create a place routine, QuietSwitch asks for location access, including access “all the time”, so it can turn quiet on when you arrive and back off when you leave, even while the app is closed. We explain this on screen before Android asks. The app does not record a continuous GPS trail: it saves only the places you choose, and registers them as geofences with Android’s Google Play services, which tell the phone when you enter or leave them. Location is used only for these routines.</p>
-<p>For prayer-time routines, the app can take one approximate location reading while you are using it to suggest your city, or you can choose the city yourself. It does not track you for prayer times.</p>
+      <section id="overview">
+        <h2>Overview</h2>
+        <p>QuietSwitch has no account, no advertising, no analytics and no crash-reporting service, and we run no server. Your routines, places, calendar information and activity history are never sent to us.</p>
+        <div class="callout"><p>Every feature that needs extra access, such as location, calendar or Bluetooth, is optional and off until you set it up.</p></div>
+      </section>
 
-<h2>Calendar</h2>
-<p>If you turn on calendar quiet, QuietSwitch reads the calendars you select to find busy events. Event titles are checked on the phone against your keywords and are not stored; the app keeps only the event times it needs.</p>
+      <section id="data">
+        <h2>Data at a glance</h2>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Data</th><th>Used for</th><th>Where it goes</th></tr></thead>
+            <tbody>
+              <tr><td>Routines and settings</td><td>Deciding when to make your phone quiet</td><td>Stays on your phone</td></tr>
+              <tr><td>Saved places</td><td>Place routines</td><td>On your phone; registered as geofences with Android’s Google Play services</td></tr>
+              <tr><td>Calendar event times</td><td>Calendar quiet</td><td>Stays on your phone; event titles are not stored</td></tr>
+              <tr><td>Activity history</td><td>Showing what changed and why</td><td>Stays on your phone; pruned automatically</td></tr>
+              <tr><td>Manual sound changes (optional)</td><td>Suggesting routines</td><td>Stays on your phone for 21 days; can be turned off and cleared</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
 
-<h2>Bluetooth and charging</h2>
-<p>If you use a Bluetooth condition, QuietSwitch checks whether a paired device you chose is connected. It stores only an anonymised identifier and the name you gave it, on your phone. It does not scan for devices.</p>
+      <section id="location">
+        <h2>Location</h2>
+        <p>If you create a place routine, QuietSwitch asks for location access, including access <strong>“all the time”</strong>, so it can make your phone quiet when you arrive and restore it when you leave, even while the app is closed. QuietSwitch explains this on screen before Android asks.</p>
+        <p>The app does not record a continuous GPS trail. It saves only the places you choose and registers them as geofences with Android’s Google Play services, which tell the phone when you enter or leave them. Location is used only for these routines.</p>
+        <h3>Prayer times</h3>
+        <p>For prayer-time routines, QuietSwitch can take one approximate location reading while you are using the app to suggest your city, or you can pick the city yourself. It does not track you for prayer times.</p>
+      </section>
 
-<h2>What stays on your phone, and how to delete it</h2>
-<ul>
-<li>Your routines, places and settings.</li>
-<li>Activity history: when routines started and ended and why. It is kept for a limited time and pruned automatically.</li>
-<li>If suggestions are on, when you changed sound by hand (date, time and mode) over the last 21 days, so the app can suggest a routine. You can turn this off and clear it.</li>
-</ul>
-<p>Settings → “Delete all local data” removes routines, places, activity and preferences, removes geofence registrations and releases any quiet the app is holding. Uninstalling the app also removes its data. QuietSwitch turns off Android cloud backup for its data.</p>
+      <section id="calendar">
+        <h2>Calendar</h2>
+        <p>If you turn on calendar quiet, QuietSwitch reads only the calendars you select to find busy events. Event titles are checked on the phone against your keywords and are not stored; the app keeps only the event times it needs.</p>
+      </section>
 
-<h2>Sharing, only when you choose</h2>
-<p>You can share a routine as a link. The link contains only the routine’s timing and sound settings. It never includes your places, coordinates or city. You can also export a compatibility report for support; it is generated on your phone and leaves it only if you share it.</p>
+      <section id="bluetooth">
+        <h2>Bluetooth and charging</h2>
+        <p>If you use a Bluetooth condition, QuietSwitch checks whether a paired device you chose is connected. It stores only an anonymised identifier and the name you gave it, on your phone, and never scans for nearby devices. Charging conditions read the phone’s charging state.</p>
+      </section>
 
-<h2>Ratings</h2>
-<p>QuietSwitch may show Google Play’s in-app review card. Google Play handles the card and any review; the app sends no personal data with it.</p>
+      <section id="storage">
+        <h2>Storage and deletion</h2>
+        <ul>
+          <li>Your routines, places and settings.</li>
+          <li>Activity history: when routines started and ended and why, kept for a limited time and pruned automatically.</li>
+          <li>If suggestions are on: when you changed sound by hand (date, time and mode) over the last 21 days.</li>
+        </ul>
+        <p><strong>Settings → Delete all local data</strong> removes routines, places, activity and preferences, removes geofence registrations and releases any quiet the app is holding. Uninstalling the app also removes its data. QuietSwitch turns off Android cloud backup for its data.</p>
+      </section>
 
-<h2>Permissions</h2>
-<ul>
-<li>Do Not Disturb access, audio and vibration: to change and restore sound settings.</li>
-<li>Location, including background location: for place routines only.</li>
-<li>Calendar: for calendar quiet only.</li>
-<li>Nearby devices (Bluetooth connect): for Bluetooth conditions only.</li>
-<li>Notifications: for status, and the optional weekly recap.</li>
-<li>Run at startup: to restore your routines after the phone restarts.</li>
-</ul>
-<p>Permissions that Android asks you about are requested only when you use the feature that needs them, and you can refuse or revoke them in Android settings.</p>
+      <section id="sharing">
+        <h2>Sharing you choose</h2>
+        <p>You can share a routine as a link. The link contains only the routine’s timing and sound settings, never your places, coordinates or city. You can also export a compatibility report for support; it is created on your phone and leaves it only if you share it.</p>
+        <p>QuietSwitch may show Google Play’s in-app review card. Google Play handles the card and any review; the app sends no personal data with it.</p>
+      </section>
 
-<h2>Children</h2>
-<p>QuietSwitch is not directed at children under 13.</p>
+      <section id="permissions">
+        <h2>Permissions</h2>
+        <ul>
+          <li><strong>Do Not Disturb access, audio and vibration</strong>: to change and restore sound settings.</li>
+          <li><strong>Location, including background location</strong>: for place routines only.</li>
+          <li><strong>Calendar</strong>: for calendar quiet only.</li>
+          <li><strong>Nearby devices (Bluetooth connect)</strong>: for Bluetooth conditions only.</li>
+          <li><strong>Notifications</strong>: for status and the optional weekly recap.</li>
+          <li><strong>Run at startup</strong>: to restore your routines after the phone restarts.</li>
+        </ul>
+        <p>Permissions that Android asks you about are requested only when you use the feature that needs them, and you can refuse or revoke them in Android settings.</p>
+      </section>
 
-<h2>Changes</h2>
-<p>If the app’s data practices change, this page is updated at the same address before the new version is released, and the date above changes.</p>
+      <section id="children">
+        <h2>Children</h2>
+        <p>QuietSwitch is not directed at children under 13 and we do not knowingly collect their information.</p>
+      </section>
 
-<h2>Contact</h2>
-<p>Questions or requests: <a href="mailto:amirhazro@gmail.com">amirhazro@gmail.com</a>.</p>
+      <section id="changes">
+        <h2>Changes to this policy</h2>
+        <p>If QuietSwitch’s data practices change, this page is updated at the same address before the new version is released, and the “Last updated” date changes.</p>
+      </section>
 
-<footer><a href="../../">amirhazro apps</a></footer>
+      <section id="contact" class="contact-card">
+        <h2>Contact</h2>
+        <p>Questions, requests or concerns about your privacy? Email us and include “QuietSwitch” in the subject.</p>
+        <p><a class="btn" href="mailto:amirhazro@gmail.com?subject=QuietSwitch%20privacy">amirhazro@gmail.com</a></p>
+      </section>
+    </article>
+  </div>
 </main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© 2026 amirhazro</span>
+    <nav aria-label="Footer">
+      <a href="/">All apps</a>
+      <a href="/pixelfit/privacy/">PixelFit privacy</a>
+      <a href="/support/">Support</a>
+    </nav>
+  </div>
+</footer>
 </body>
 </html>
