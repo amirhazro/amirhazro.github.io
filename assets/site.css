@@ -30,10 +30,12 @@
 .app-pixelfit { --accent: #d4f04a; --on-accent: #16181d; --accent-soft: #eef6d0; }
 .app-quietswitch { --accent: #ff8a3d; --on-accent: #16181d; --accent-soft: #ffeadb; }
 .app-tilly { --accent: #5eead4; --on-accent: #053b34; --accent-soft: #dcf5ef; }
+.app-revela { --accent: #86d9df; --on-accent: #10272b; --accent-soft: #dff3f5; }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) .app-pixelfit { --accent-soft: #2a3112; }
   :root:not([data-theme="light"]) .app-quietswitch { --accent-soft: #3a2616; }
   :root:not([data-theme="light"]) .app-tilly { --accent-soft: #10302b; }
+  :root:not([data-theme="light"]) .app-revela { --accent-soft: #142e32; }
 }
 
 *, *::before, *::after { box-sizing: border-box; }
